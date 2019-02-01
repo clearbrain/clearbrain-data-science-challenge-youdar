@@ -48,19 +48,12 @@ Here are the characteristics of the user in the first row.
 Please respond to these challenges as fully as possible within the time frame, and write a brief description of your analysis for each.
 
 1. Build a model that predicts conversion rate.
+
 2. Using the model, determine which features are important in predicting conversion.
+
 3. Come up with some recommendations of experiments you might run or changes you might make to the product team and to the marketing team
-4. You have a client who is testing out a new marketing methodology. In order to test the new methodology, the client splits their users into two groups. In the first group, some users are treated with the new marketing methodology and others are put into a holdout. In the second group, some users are treated with the old marketing methodology and others are put into a holdout. 
 
-The client sends you a report on the performance of the two campaigns: (their old methodology vs the new methodology) detailing the overall incremental conversion rate above the holdout of each group as well as "statistical significance" of the incremental conversation rate. 
-
-"
-The new methedology shows an incremental conversion rate above its holdout of 3.5% with a statistical significance of 99%. The old methodology shows an incremental conversion rate above its holdout of 2.5% with a statistical significance of 99%.
-"
-
-The client asks you if we can conclude whether the new marketing methedology will provide an increase in incremental conversions over the old methedology?
-
-This is all of the data you have to work with. You will need to interpret and come up with your conclusions from this data only.
+4. You have a client who is testing out a new marketing methodology. In order to test the new methodology, the client splits their users into two groups. In the first group, some users are treated with the new marketing methodology and others are put into a holdout. In the second group, some users are treated with the old marketing methodology and others are put into a holdout. The client sends you a report on the performance of the two campaigns: (their old methodology vs the new methodology) detailing the overall incremental conversion rate above the holdout of each group as well as "statistical significance" of the incremental conversation rate. "The new methedology shows an incremental conversion rate above its holdout of 3.5% with a statistical significance of 99%. The old methodology shows an incremental conversion rate above its holdout of 2.5% with a statistical significance of 99%". The client asks you if we can conclude whether the new marketing methedology will provide an increase in incremental conversions over the old methedology? This is all of the data you have to work with. You will need to interpret and come up with your conclusions from this data only.
 
 5. (Bonus) If you were going to run the scooter share service, how would you use this data / model in production to continuously improve the product?
 
