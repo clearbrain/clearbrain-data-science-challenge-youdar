@@ -66,6 +66,7 @@ it would allow better understanding the effectiveness of the different sources o
 and again maybe help understand better when and how to interact with the customers      
 
 #### Testing
+`(Did not review this yet)`   
 You have a client who is testing out a new marketing methodology.   
 In order to test the new methodology, the client splits their users into two groups.   
 In the first group, some users are treated with the new marketing methodology and others are put into a holdout.   
@@ -81,5 +82,6 @@ incremental conversions over the old methedology? This is all of the data you ha
 You will need to interpret and come up with your conclusions from this data only.
 
 #### (Bonus) 
+`(Did not review this yet)`   
 If you were going to run the scooter share service, how would you use this data / model in production    
 to continuously improve the product?
