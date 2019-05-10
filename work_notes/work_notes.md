@@ -23,14 +23,18 @@ The basic features in the data are
 
 
 We do not have info on the actual user (such as user account)   
-We do not have dates in the data, so we can't look at the change over time   
-What I would do is try to predict `converted = 1`   
-and see what features are important. Try to understand what drive the conversion, rather than 
-directly predict the conversion rate.   
-In this way, once there is a model, you can test how changing feature effect conversion and   
+We do not have dates in the data, so we can't look at the change over time  
+
+I would do couple of models (Only very brifly. Will not spend to much time)   
+One model create a new `target` feature as described below, and another just diredtly try and predict `converted = 1`    
+  
+Typically I would do a quick model and see what features are important just to try and 
+see if I can get initial understanding of what drive the conversion.
+By predicting conversion we can calculate rather than the predicted conversion rate.   
+Once we have a model, we can test how changing feature effect conversion and   
 then calculate the conversion rate.
 
-I will do several thing (if I were to actually do the work):   
+I would have done several things:   
 - Just ot get better understanding of the data I will run some clustering algorithm (k-means)   
    Just to see if there is something we can see that can help with creating good features
 - I would have like to do couple of models   
@@ -38,10 +42,12 @@ I will do several thing (if I were to actually do the work):
    - converted_at_first_visit (new_user=1 and converted=1)   
    - converted_not_at_first (new_user=0 and converted=1)   
    - did_not_convert (converted=0)   
-   so create a target feature `conversion_state` that capture those categories   
+   so create a `target` feature that capture those categories   
 
-2) Use converted as the target, and try to predict `converted = 1` 
-3) repeat (1) and (2) but sample down the `converted = 0`
+2) Use converted as the target, and try to predict `converted = 1`   
+
+3) repeat (1) and (2) but sample down the `converted = 0`    
+   (I did not spend time on this)
 
 
 I added an age range feature, such as `age_range`: `< 18`, `18 - 26`, `27 - 36`, ...   
