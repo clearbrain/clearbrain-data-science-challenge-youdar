@@ -10,4 +10,7 @@ conv = df.converted.value_counts().to_list()
 conv_rate = round(conv[1] / sum(conv), 2)
 print('\nConv rate: {}'.format(conv_rate))
 
+print(df.age.dtype)
+print(df.age.value_counts())
+
 print('Done...')
