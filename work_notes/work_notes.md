@@ -65,7 +65,7 @@ The feature `total_pages_visited` dominated the model prediction
 `age_reange` and `age` found to be redundant, I would drop the age feature if I would continue to work on it    
 I would also run the model without the `total_pages_visited` to get more insight on the other   
 features influence   
-![Feature_Impact](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/tree/master/images/Regularized_Logistic_Regression_Feature_Impact_-_all_data_-_basic_target.png "Feature_Impact")   
+![Feature_Impact](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/blob/master/images/Regularized_Logistic_Regression_Feature_Impact_-_all_data_-_basic_target.png "Feature_Impact")   
 
 
 Frequencies:   
