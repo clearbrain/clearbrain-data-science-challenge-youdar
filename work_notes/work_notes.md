@@ -58,7 +58,7 @@ Model with basic target (`converted`)
 `Regularized Logistic Regression (L2)`     
 
 ROC and more:   
-![roc](images/roc_and_more_-_all_data_-_basic_target.png "ROC and more")   
+![roc]('https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/blob/master/images/roc_and_more_-_all_data_-_basic_target.png' "ROC and more")   
 
 Features impact:   
 The feature `total_pages_visited` dominated the model prediction   
