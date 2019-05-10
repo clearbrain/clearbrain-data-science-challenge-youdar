@@ -58,14 +58,14 @@ Model with basic target (`converted`)
 `Regularized Logistic Regression (L2)`     
 
 ROC and more:   
-![roc](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/tree/master/images/roc_and_more_-_all_data_-_basic_target.png "ROC and more")   
+![roc](images/roc_and_more_-_all_data_-_basic_target.png "ROC and more")   
 
 Features impact:   
 The feature `total_pages_visited` dominated the model prediction   
 `age_reange` and `age` found to be redundant, I would drop the age feature if I would continue to work on it    
 I would also run the model without the `total_pages_visited` to get more insight on the other   
 features influence   
-![Feature_Impact](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/tree/master/images/Regularized_Logistic_Regression_Feature_Impact_-_all_data_-_basic_target.png)   
+![Feature_Impact](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/tree/master/images/Regularized_Logistic_Regression_Feature_Impact_-_all_data_-_basic_target.png "Feature_Impact")   
 
 
 Frequencies:   
