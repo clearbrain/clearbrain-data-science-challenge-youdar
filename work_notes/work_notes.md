@@ -25,7 +25,7 @@ The basic features in the data are
 We do not have info on the actual user (such as user account)   
 We do not have dates in the data, so we can't look at the change over time  
 
-I would do couple of models (Only very brifly. Will not spend to much time)   
+I would do couple of models (Only very briefly. Will not spend to much time)   
 One model create a new `target` feature as described below, and another just diredtly try and predict `converted = 1`    
   
 Typically I would do a quick model and see what features are important just to try and 
@@ -79,11 +79,16 @@ Frequencies:
 ![pages_visited Histogram](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/blob/master/images/Feature_total_pages_visited_Histogram_-_all_data_-_basic_target.png "pages_visited Histogram")   
 
 
-**(I get a little into on this model when it is done processin)**  
 Model with new target (`target`, option 1 above)   
-  
+`Light Gradient Boosted Trees Classifier with Early Stopping (SoftMax Loss) (16 leaves)`   
+Interesting... but I will not spend more time to discus at the moment   
 
-Model review image   
+Features impact:  
+![Feature_Impact](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/blob/master/images/Light_Gradient_Boosted_Trees_Classifier_all-data_-modified_target.png "Feature_Impact")      
+
+Confusion Matrix:   
+![Confusion Matrix](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/blob/master/images/Light_grad_Confusion_Matrix_all-data_-modified_target.png "Confusion Matrix")   
+   
  
 
 
