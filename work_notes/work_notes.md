@@ -69,7 +69,7 @@ features influence
 
 
 Frequencies:   
-![age_range Frequency](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/tree/master/images/Feature_age_range_Frequency_Values_-_all_data_-_basic_target.png "age_range Frequency")   
+![age_range Frequency](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/blob/master/images/Feature_age_range_Frequency_Values_-_all_data_-_basic_target.png "age_range Frequency")   
 ![pages_visited Histogram](https://github.com/clearbrain/clearbrain-data-science-challenge-youdar/tree/master/images/Feature_total_pages_visited_Histogram_-_all_data_-_basic_target.png "pages_visited Histogram")   
 
 
